@@ -22,41 +22,48 @@
     <!--my icons-->
     <script src="https://unpkg.com/feather-icons"></script>
 
-    <!---my style-->
+    <!--javascript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      jQuery(document).ready(function(){
+        jQuery(function() {
+              jQuery(this).bind("contextmenu", function(event) {
+                  event.preventDefault();
+                  alert('Kamu dilarang klik kanan ya! Jangan coba-coba')
+              });
+          });
+      });
+    </script>
+
   </head>
-
-
   <body>
+
     <!--navbar start-->
     <nav class="navbar">
       <a href="#" class="navbar-logo">Seputar<span>IKN</span></a>
-
       <div class="navbar-nav">
         <a href="#Home">Home</a>
         <a href="#About">About</a>
         <a href="content.html">Content</a>
-        <a href="#Contact">Contact</a>
-      </div>
-
-      <div class="navbar-extra">
-        <a href="#" id="hamburger-menu"><i data-feather="menu"></i>></i></a>
+        <a href="contact.html">Contact</a>
       </div>
     </nav>
     <!--navbar end-->
 
-    <!--hero page start-->
+    <!--content page start-->
     <section class="hero" id="Home">
       <main class="content">
-        <h1> Selamat Datang di <em>Seputar</em><span>IKN</span></h1>
-        <h2>Membahas seputar Ibu Kota Nusantara (IKN).</2>
+        <h1 style=" text-shadow: 10px 20px 10px rgba(1, 1, 3, 1);"> 
+          Selamat Datang di <em>Seputar</em><span>IKN</span>
+        </h1>
+        <p>Membahas seputar Ibu Kota Nusantara (IKN).</p>
       </main>
     </section>
-    <!--hero page end-->
+    <!--content page end-->
 
     <!--about page start-->
     <section id="About" class="About">
-      <h2>About</h2>
-
+      <p>About</p>
       <div class="row">
         <div class="About-img"></div>
         <img src="about-fix.jpeg" alt="About">
@@ -69,10 +76,12 @@
     </section>
     <!--about page end-->
 
+
     <footer class="footer">
       <p class="navbar-logo">Seputar<span>IKN</span></p>
       <p>©2024 Seputar IKN | All Rights Reserved</p>
     </footer>
+
 
     <!--my feather icons-->
     <script>
@@ -80,7 +89,7 @@
     </script>
 
     <!--javascripts-->
-    <script src="js\scripts.js"></script>
+    <script src="scripts.js"></script>
     
   </body>
 </html>
