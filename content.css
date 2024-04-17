@@ -24,62 +24,108 @@
   
   
   /*landing page/hero */
-  .hero {
+  /* .hero {
     display: flex;
     flex-direction: column;
-    justify-content: top;
-    min-height: 1500px;
+    justify-content: center;
+    align-items: center;
     top: 110px;
+    right: 275px;
     position: relative;
     background-color: lightsalmon;
   }
   
-  .hero::after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 30%;
-    bottom: 0;
-    background: linear-gradient(
-      0deg,
-      rgba(1, 1, 3, 1) 8%,
-      rgba(255, 255, 255, 0) 50%
-    );
-  }
   
   .hero .content {
-    padding: 1.4rem 7%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* background-color: rgba(1, 1, 1, 0.7); */
-  }
-  
-  .content .box-content{
     display: flex;
     flex-direction: row;
-
+    align-items: center;
+    justify-content: center;  
+    background-color: light;
+    background-color: ;
   }
 
-  .hero .content h1 {
+  .isi-content{
+    background-color: rgb(156, 186, 204);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-judul{
+  
+  }
+
+  .box-judul h1{
     font-size: 100px;
-    color: #fff;
-    text-shadow: 10px 20px 10px rgba(1, 1, 3, 1);
-    line-height: 1.2;
   }
-  
-  .hero .content h1 span {
-    color: var(--primary);
-    font-style: italic;
-  }
-  
-  .hero .content p {
+
+  .box-subjudul p{
     font-size: 50px;
-    margin-top: 1rem;
-    text-shadow: 5px 2px 3px #000000;
+  } */
+
+  .content{
+    /* background-color: lightblue; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    top: 110px;
+    margin-right: 275px;
+    height: 2000px;
   }
+
+  .box-content{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    width: 1500px;
+    border-radius: 20px;
+    border:  1px solid #12372a;
+    padding: 10px 20px 10px 30px;
+    margin: 20px;
+    box-shadow: 0px 0px 20px 5px #12372a;
+  }
+
+  .box-foto img{
+    height: 370px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  
+
+  .box-teks{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:start;
+  }
+
+  .box-judul{
+      padding: 20px 0px 30px 10px;
+
+    
+  }
+
+  .box-judul p{
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  .box-subjudul{
+    padding: 0px 20px 30px 10px;
+  }
+
+  .box-subjudul p{
+    font-size: 23px;
+  }
+
+
+  
   
   /* SIDEBAR */
   .sidebar{
