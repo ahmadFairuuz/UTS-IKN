@@ -32,7 +32,7 @@
   }
   
   .navbar .navbar-nav a:hover {
-    color: var(--primary);
+    color: greenyellow;
   }
   
   .navbar .navbar-nav a::after {

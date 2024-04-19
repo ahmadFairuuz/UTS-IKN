@@ -66,53 +66,80 @@
   } */
 
   .content{
+    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     margin-top: 110px;
     margin-right: 275px;
-    margin-left: 20px;
-
   }
 
   .box-content{
     background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
-    align-items:center;
+    align-items:start;
     justify-content: center;
+    height: 1500px;
+  }
+
+  .box-telepon{
     border-radius: 20px;
     border:  1px solid #12372a;
-    padding: 10px 20px 10px 30px;
-    margin-bottom: 20px;
+    padding: 30px 30px 30px 30px;
+    margin: 20px;
     box-shadow: 0px 0px 20px 5px #12372a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
   }
 
-  .box-foto img{
+  .box-telepon img{
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+  .box-telepon h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .box-telepon h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .box-telepon p{
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .box-instagram{
+    background-color: lightseagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
     height: 370px;
-    padding: 10px;
     border-radius: 20px;
   }
 
-  .box-teks{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content:start;
+  .box-instagram img{
+    height: 50px;
   }
 
-  .box-judul{
-      padding: 20px 0px 30px 10px;
+  .box-email{
+    background-color: lightpink;
+    height: 370px;
+    border-radius: 20px;    
   }
 
-  .box-judul h1{
+  .box-judul p{
     font-size: 50px;
     font-weight: 700;
-  }
-
-  .box-judul h1 a:hover{
-    text-decoration: underline;
   }
 
   .box-subjudul{
